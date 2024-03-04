@@ -1,0 +1,58 @@
+.review_section {
+  margin-top: 50px;
+}
+
+.review_title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.review_name {
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #333;
+}
+
+.review_content {
+  position: relative;
+  width: 960px;
+  margin: 0 auto;
+  height: 300px;
+  overflow: hidden;
+}
+
+.review_subtitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.review_items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.review_buttons {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.review_form_button {
+  padding: 10px 30px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 8px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #555;
+  }
+}

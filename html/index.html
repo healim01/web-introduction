@@ -91,8 +91,10 @@
                 alt=""
               />
               <div class="movie_detail">
-                <p class="movie_name">Queen's Gambit</p>
-                <a href="" class="movie_link"
+                <p class="movie_name">The Grand Budapest Hotel</p>
+                <a
+                  href="https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bkEw&pkid=68&os=1830852&qvt=0&query=%EA%B7%B8%EB%9E%9C%EB%93%9C%20%EB%B6%80%EB%8B%A4%ED%8E%98%EC%8A%A4%ED%8A%B8%20%ED%98%B8%ED%85%94"
+                  class="movie_link"
                   ><i class="fa-solid fa-clapperboard"></i> 리뷰보기
                 </a>
               </div>
@@ -104,8 +106,10 @@
                 alt=""
               />
               <div class="movie_detail">
-                <p class="movie_name">Queen's Gambit</p>
-                <a href="" class="movie_link"
+                <p class="movie_name">Knives out</p>
+                <a
+                  href="https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bkEw&pkid=68&os=10096927&qvt=0&query=%EB%82%98%EC%9D%B4%EB%B8%8C%EC%8A%A4%20%EC%95%84%EC%9B%83"
+                  class="movie_link"
                   ><i class="fa-solid fa-clapperboard"></i> 리뷰보기
                 </a>
               </div>
@@ -118,7 +122,9 @@
               />
               <div class="movie_detail">
                 <p class="movie_name">Queen's Gambit</p>
-                <a href="" class="movie_link"
+                <a
+                  href="https://www.netflix.com/search?q=%ED%80%B8%EC%A6%88&jbv=80234304"
+                  class="movie_link"
                   ><i class="fa-solid fa-clapperboard"></i> 리뷰보기
                 </a>
               </div>
@@ -130,8 +136,10 @@
                 alt=""
               />
               <div class="movie_detail">
-                <p class="movie_name">Queen's Gambit</p>
-                <a href="" class="movie_link"
+                <p class="movie_name">Hunger Game</p>
+                <a
+                  href="https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bkEw&pkid=68&os=1833821&qvt=0&query=%ED%97%9D%EA%B1%B0%EA%B2%8C%EC%9E%84%3A%EB%AA%A8%ED%82%B9%EC%A0%9C%EC%9D%B4"
+                  class="movie_link"
                   ><i class="fa-solid fa-clapperboard"></i> 리뷰보기
                 </a>
               </div>
@@ -143,8 +151,10 @@
                 alt=""
               />
               <div class="movie_detail">
-                <p class="movie_name">Queen's Gambit</p>
-                <a href="" class="movie_link"
+                <p class="movie_name">불한당</p>
+                <a
+                  href="https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bkEw&pkid=68&os=4024614&qvt=0&query=%EB%B6%88%ED%95%9C%EB%8B%B9"
+                  class="movie_link"
                   ><i class="fa-solid fa-clapperboard"></i> 리뷰보기
                 </a>
               </div>
@@ -170,11 +180,37 @@
       <section class="review_section">
         <h2 class="review_title">📝 Your Movie Review 📝</h2>
         <div class="review_content">
-          <input
-            type="text"
-            class="review_input"
-            placeholder="영화 제목을 입력해주세요"
-          />
+          <form>
+            <input
+              type="text"
+              class="review_name"
+              placeholder="당신의 이름을 입력해주세요"
+            />
+            <div>
+              <p class="review_subtitle">본인 취향인 영화는?</p>
+              <div class="review_items">
+                <p>
+                  <input type="checkbox" value="그랜드 부다페스트 호텔" />
+                  그랜드 부다페스트 호텔 🏨
+                </p>
+                <p>
+                  <input type="checkbox" value="나이브스 아웃" /> 나이브스 아웃
+                  🕵️‍♂️
+                </p>
+                <p><input type="checkbox" value="퀸즈 갬빗" /> 퀸즈 갬빗 ♟️</p>
+                <p><input type="checkbox" value="헝거게임" /> 헝거게임 🔥</p>
+                <p><input type="checkbox" value="불한당" /> 불한당 🔫</p>
+              </div>
+            </div>
+            <p class="review_buttons">
+              <input class="review_form_button" type="reset" value="취소" />
+              <input
+                class="review_form_button submit_button"
+                type="submit"
+                value="등록"
+              />
+            </p>
+          </form>
         </div>
       </section>
     </div>
@@ -182,5 +218,6 @@
       <p>🌷 Hailey's Portfolio 🌷</p>
     </footer>
     <script type="text/javascript" src="../js/movies.js"></script>
+    <script type="text/javascript" src="../js/review.js"></script>
   </body>
 </html>
