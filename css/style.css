@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  font-size: 16px;
+  width: 100%;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 0.5rem;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  margin-top: 3rem;
+  padding: 1rem;
+  bottom: 0;
+  width: 100%;
+}
