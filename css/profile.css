@@ -1,0 +1,31 @@
+.profile_section {
+  padding: 2rem 0;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.profile_img {
+  max-width: 400px; /* Ensure the image doesn't exceed its container */
+}
+
+.profile_text {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.subtitle {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
